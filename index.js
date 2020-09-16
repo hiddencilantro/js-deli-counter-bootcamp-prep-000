@@ -4,7 +4,7 @@ function takeANumber(line, name) {
 }
 
 function nowServing(katzDeliLine) {
-  if (katzDeliLine.length > 0) {
+  if (katzDeliLine.length === 0) {
     console.log(`Currently serving ${katzDeliLine[0]}.`);
     katzDeliLine.shift();
   } else {
