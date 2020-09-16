@@ -4,8 +4,7 @@ function takeANumber(line, name) {
 }
 
 function nowServing(katzDeliLine) {
-  return function update() {
-    console.log(`Currently serving ${katzDeliLine[0]}`);
+  return console.log(`Currently serving ${katzDeliLine[0]}`);
     katzDeliLine.shift();
   }
 }
