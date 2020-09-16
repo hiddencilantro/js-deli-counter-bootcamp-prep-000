@@ -18,5 +18,5 @@ function currentLine(line) {
   for (let i=0; i<line.length; i++) {
     updatedLine.push(`${i+1}. ${line[i]}`)
   }
-  return `The line is currently: ${updatedLine}`
+  return `The line is currently: ${updatedLine.join(' '}`
 }
