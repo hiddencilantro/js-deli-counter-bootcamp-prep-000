@@ -15,6 +15,6 @@ function currentLine(line) {
     return "The line is currently empty.";
   }
   var updatedLine = [];
-  for (i=0, l=line.length; i<)
+  for (i=0, l=line.length; i<l; i++)
   return `The line is currently: `
 }
