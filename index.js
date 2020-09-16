@@ -4,5 +4,7 @@ function takeANumber(line, name) {
 }
 
 function nowServing(katzDeliLine) {
-  return katzDeliLine.
+  return function update() {
+    return katzDeliLine[0];
+  }
 }
