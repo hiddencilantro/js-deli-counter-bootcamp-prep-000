@@ -18,5 +18,5 @@ function currentLine(line) {
   for (let i=0, l=line.length; i<l; i++) {
     updatedLine.push(`${i+1}. ${updatedLine[i]}`)
   }
-  return `The line is currently: `
+  return `The line is currently: ${updatedLine}`
 }
